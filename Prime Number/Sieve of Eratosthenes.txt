@@ -1,0 +1,8 @@
+				Sieve of Eratosthenes
+
+The problem with the sieve of Eratosthenes is not the number of operations it performs but rather its memory requirements.
+For large n, the range of primes may not fit in memory; 
+worse, even for moderate n, its cache use is highly suboptimal. The algorithm walks through the entire array A, exhibiting almost no locality of reference. 
+
+Wikipedia
+https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
